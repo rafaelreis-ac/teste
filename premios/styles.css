@@ -1,0 +1,12 @@
+body {
+    background-color: #eaf2f8;
+    color: #1b4f72;
+}
+h1 {
+    color: #2980b9;
+    margin-top: 30px;
+}
+.nav-link.active {
+    color: #ffc107 !important;
+    font-weight: bold;
+}

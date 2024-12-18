@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-dark.bg-dark:hover {
+    background-color: #495057;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Animações */
+.navbar-toggler {
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler.collapsed {
+    transform: rotate(0);
+}
+
+.navbar-toggler:not(.collapsed) {
+    transform: rotate(90deg);
+}
