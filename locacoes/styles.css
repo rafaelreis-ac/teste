@@ -10,6 +10,11 @@ h1 {
     text-align: justify;
     margin: 20px;
 }
+#map {
+    height: 500px;
+    width: 100%;
+    margin: 20px 0;
+}
 .nav-link.active {
     color: #ffc107 !important;
     font-weight: bold;
