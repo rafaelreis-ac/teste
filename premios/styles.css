@@ -10,6 +10,14 @@ h1 {
     text-align: justify;
     margin: 20px;
 }
+.responsive { 
+    width: 100%;
+    max-width: 350px;
+    height: auto; 
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
 .nav-link.active {
     color: #ffc107 !important;
     font-weight: bold;
