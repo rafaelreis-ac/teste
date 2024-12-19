@@ -8,10 +8,14 @@ h1 {
     font-weight: bold;
     color: #6c757d;
 }
+.elenco { 
+    margin-top: 30px;
+}
 
 .card {
     transition: transform 0.3s ease-in-out;
     border: none;
+    margin: 20px;
 }
 
 .card:hover {
@@ -19,7 +23,42 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.card-img-top { 
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 300px;
+    }
+}
 .nav-link.active {
     color: #ffc107 !important;
     font-weight: bold;
+}
+.navbar {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-dark.bg-dark:hover {
+    background-color: #495057;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+/* Animações */
+.navbar-toggler {
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler.collapsed {
+    transform: rotate(0);
+}
+
+.navbar-toggler:not(.collapsed) {
+    transform: rotate(90deg);
 }
